@@ -1,0 +1,335 @@
+@charset "utf-8";
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+header{
+	height: 200px;
+	width: 100%;
+	background-color:black;
+}
+header .Account_section{
+	height: 60px;
+	width: 100%;
+	
+	
+}
+header .Account_section .GRID_1200{
+line-height: 60px;
+	width: 1200px;
+	background:#050000;
+	margin: 0px auto;
+	display: flex;
+	justify-content: flex-end;
+}
+header .Account_section ul{
+	margin-left: 100px;
+	list-style: none;
+	display: flex;
+	
+}
+header .Account_section ul li{
+	margin-right: 50px;
+	
+}
+header .Account_section ul li div{
+	height: 20px;
+	width: 20px;
+	
+}
+header .Account_section ul li a{
+text-decoration: none;
+	color: #FFFFFF;
+}
+header .Login_section{
+	width: 100%;
+	height: 140px;
+	background: #ffffff;
+	
+}
+header .Login_section .GRID_1200{
+	width: 1200px;
+	height: 140px;
+	
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+header .Login_section .GRID_1200 .Logo_section{
+	height: 130px;
+	width: 300px;
+/*	background: #64EF3B;*/
+	
+}
+header .Login_section .GRID_1200 .Logo_section img{
+	height: 130px;
+	width: 200px;
+	
+	
+	
+}
+header .Login_section .GRID_1200 .Sign_In{
+	height: 130px;
+	width: 300px;
+	/*background:#1E0DF9;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .Login_section .GRID_1200 .Sign_In button a{
+	color: black;
+}
+header .Login_section .GRID_1200 .Sign_In button:nth-child(1){
+	height: 50px;
+	width: 100px;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+	border-right: 3px solid orange;
+	background:#1E0DF9;
+	color:black;
+	
+}
+header .Login_section .GRID_1200 .Sign_In button:nth-child(1) a,header .Login_section .GRID_1200 .Sign_In button:nth-child(2) a{
+     text-decoration: none;
+	color: white;
+	font-size: 18px;
+	
+}
+header .Login_section .GRID_1200 .Sign_In button:nth-child(2){
+	height: 50px;
+	width: 100px;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+	border-right:none;
+	background:#1E0DF9;
+	color: white;
+	
+}
+nav{
+	height: 50px;
+	width: 100%;
+	background-color:orange;
+}
+nav .Navigation_parts{
+	width: 1200px;
+	height:  50px;
+	background-color: orange;
+	margin: 0px auto;
+	display: flex;
+
+}
+nav .Navigation_parts .Navigation{
+	width: 900px;
+	line-height:  50px;
+	margin-left: 50px;
+}
+nav .Navigation_parts .Navigation ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	
+}
+nav .Navigation_parts .Navigation ul li {
+	color:white;
+/*	display: inline;*/
+	font-size: 20px;
+	position: relative;
+}
+nav .Navigation_parts .Navigation ul li:hover .Sub_nav{
+	display: block;
+} 
+nav .Navigation_parts .Navigation ul li .Sub_nav{
+	position: absolute;
+    display:flex;
+	flex-direction: column;
+	width: 250px;
+	border: 2px solid black;
+	list-style: none;
+	display: none;
+}
+nav .Navigation_parts .Navigation ul li .Sub_nav li{
+	line-height: 40px;
+	padding-left: 50px;
+	border-bottom: 2px solid black;
+}
+nav .Navigation_parts .Navigation ul li .Sub_nav li a{
+	text-decoration: none;
+	color: black;
+}
+nav .Navigation_parts .Navigation ul li span{
+	margin-left: 9px;
+	color: #E7940C;
+}
+nav .Navigation_parts .search_field{
+	width: 300px;
+	line-height:  50px;
+	padding-left: 50px;
+	
+}
+.banner{
+	height: 630px;
+	width: 100%;
+	background-color: #B0E0EC;
+	position: relative;
+}
+.banner img{
+	height: 630px;
+	width: 100%;
+
+}
+.banner .Banner_content{
+	height:400px;
+	width: 500px;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.banner .Banner_content font:nth-child(1){
+	font-size: 50px;
+}
+.banner .Banner_content font:nth-child(3){
+	font-size: 50px;
+}
+.banner .Banner_content font:nth-child(5){
+	font-size: 32px;
+}
+.Banner_content .contents button{
+	height: 50px;
+	width: 230px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	
+}
+.Banner_content .contents button a{
+font-size: 25px;
+	text-decoration: none;
+	color: orange;
+	
+}
+.Banner_content .contents button a i{
+font-size: 20px;
+
+	
+}
+.Sub-Banner img{
+	height: 300px;
+	width: 560px;
+}
+.Sub-Banner {
+	height: 300px;
+	width: 560px;
+	padding-top: 50px;
+}
+.Sub-Banner2 img{
+	height: 350px;
+	width: 560px;
+	padding-top: 50px;
+}
+.Sub-Banner2{
+	height: 300px;
+	width: 560px;
+	margin-left: 50px;
+	
+	
+	
+	
+	
+	
+}
+aside{
+	width: 1200px;
+	
+	display: flex;
+	margin: 0px auto;
+	
+}
+article{
+	width: 1200px;
+	
+	margin: 0px auto;
+	padding-top: 100px;
+}
+article section .Categories img{
+	width: 320px;
+	height: 400px;
+	float: left;
+}
+article section .Categories .Carburator_Category{
+	width: 880px;
+	height: 400px;
+	
+	float: right;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+	
+	
+}
+article section .Categories .Carburator_Category .category{
+	width: 250px;
+	height: 400px;
+    background: #EDE1E2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+article section .Categories .Carburator_Category .category figure{
+	width: 240px;
+	height: 196px;
+	background-color: #E9E2DC;
+}
+article section .Categories .Carburator_Category .category img{
+	width: 213px;
+	height: 188px;
+	
+}
+footer{
+	height: 250px;
+	width: 100%;
+
+	clear: both;
+
+}
+footer .footer_content{
+	height: 250px;
+	width: 1200px;
+	background-color:#ffffff;
+	margin: 0px auto;
+    display: flex;
+	justify-content: space-between;
+		padding: 90px ;
+}
+/*nav{
+	height: 50px;
+	width: 100%;
+	background-color:cadetblue;
+}
+.banner{
+	height: 630px;
+	width: 100%;
+	background-color:darkgray;
+}
+main{
+	height: 800px;
+	width: 100%;
+	background-color:darkslategray;
+}
+footer{
+	height: 390px;
+	width: 100%;
+	background-color:darkolivegreen;
+}*/
